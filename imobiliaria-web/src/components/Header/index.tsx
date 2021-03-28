@@ -1,3 +1,7 @@
+/*
+Support link: https://betterprogramming.pub/making-a-basic-header-responsive-with-materialui-and-react-2198fac923c8
+*/
+
 import React, { useState, useEffect } from 'react';
 
 import { AppBar, Toolbar, Typography, makeStyles, Button, IconButton, Drawer, Link,
