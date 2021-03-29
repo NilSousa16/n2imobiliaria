@@ -1,5 +1,12 @@
 /*
-Support link: https://betterprogramming.pub/making-a-basic-header-responsive-with-materialui-and-react-2198fac923c8
+Support link: 
+  https://betterprogramming.pub/making-a-basic-header-responsive-with-materialui-and-react-2198fac923c8
+
+  https://medium.com/@sidbentifraouine/responsive-animated-top-navigation-bar-with-react-transition-group-fd0ccbfb4bbb
+
+  https://reactgo.com/material-ui-react-tutorial/
+
+  https://codesandbox.io/s/material-ui-navbar-responsive-lf30l?file=/src/components/Toolbar/Toolbar.js
 */
 
 import React, { useState, useEffect } from 'react';
@@ -35,7 +42,7 @@ const useStyles = makeStyles(() => ({
   header: {
     backgroundColor: "#400CCC",
     paddingRight: "79px",
-    paddingLeft: "118px",
+    paddingLeft: "118px",    
     // paddingLeft será 0 quando a tela for menor que 900px
     "@media (max-width: 900px)": {
       paddingLeft: 0,
