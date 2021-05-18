@@ -8,8 +8,16 @@ import { Title } from './styled';
 
 const Footer: React.FC = () => {
   return (
-    <AppBar position="static" color="primary" style={{width:'100%'}}>
-      <Container maxWidth="md">
+    <AppBar 
+      position="static" 
+      color="primary" 
+      style={{
+        backgroundColor: "#400CCC", 
+        width:'100%', 
+        marginBottom:'0',
+        marginTop: '20px',
+      }}>
+      <Container>
         <Toolbar>
           <Typography variant="body1" color="inherit">
             © 2021 N2Software
